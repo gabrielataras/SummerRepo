@@ -1,44 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Calculator - for Tech Talent South</title>
-    </head>
-    <body>
+       
         <div id='calc-contain'>
-  
-          <form name="calculator">
+        
+        <form name="calculator">
             
             <input type="text" name="answer" />
-            <br>
-            
-            <input type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
-            <input type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
-            <input type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
-            <input type="button" value=" + " onclick="calculator.answer.value += '+'" />
-            <br/>
-            
-            <input type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
-            <input type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
-            <input type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
-            <input type="button" value=" - " onclick="calculator.answer.value += '-'" />
-            </br>
+            <link href="calcstylesheet.css" rel="stylesheet" type="text/CSS" />
+            	
+         <title>Calculator - for Tech Talent South</title>
+         <div id= 'Calculator for TTS'>
+         <form>
+    </head>
+
+    	 <body>    
+    	  <div class= "calculator">
+    	  
+    	<div class= "buttons-container">
           
-            <input type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
-            <input type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
-            <input type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
-            <input type="button" value=" x " onclick="calculator.answer.value += '*'" />
-            </br>
-        
-            <input type="button" value=" c " onclick="calculator.answer.value = ''" />
-            <input type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
-            <input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" />
-            <input type="button" value=" / " onclick="calculator.answer.value += '/'" />
-            </br>
-  
+           
+            <div class ="button function ac" value="AC">AC</div>
+            <div class ="button operator plus">+</div>
+            
+            <div type="text" class="result">0</div>
+            <div class="button operator decimal">.</div>
+            <div class="button operator equals">=</div>     
+           
+           
+            <div class ="button operator divide">/</div>
+            <div class ="button operator subtract">-</div>
+            <div class ="button operator multiply">x</div>
+            
+            <div class ="button seven">7</div>
+            <div class ="button eight">8</div>
+            <div class ="button nine">9</div> 
+            
+           
+            
+            <div class ="button four">4</div>
+            <div class ="button five">5</div>
+            <div class ="button six">6</div>
+            
+            
+            
+            <div class="button one">1</div>
+            <div class ="button two">2</div>
+            <div class ="button three">3</div>     
+            
+            <div class ="button zero">0</div>
+           
     
-          </form>
-          <div id="agh">
-            <p>Calculator for Tech Talent South
+          
+          <script src="scripts/calculatorApp.js"></script>
+            <p>Calculator for Tech Talent South</p>
           </div>
         </div>
     </body>
